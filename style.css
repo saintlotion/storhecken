@@ -1,0 +1,321 @@
+main {
+	background-color: white;
+	width: 1000px;
+	height: 562.5px;
+}
+
+section {
+	background-color: white;
+	color: black; /* text color */
+	transition: 500ms;
+}
+
+.dark {
+	background-color: turquoise;	
+	color: rgb(0, 0, 0); /* text color */
+}
+
+.oversodermalm {
+	top: 234px;
+	left: 349px;
+	scale: 55%;
+	opacity: 1;
+  }
+  
+  .image {
+	opacity: 0;
+	display: block;
+
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+  
+  .middle {
+	transition: .5s ease;
+	opacity: 0.5;
+	position: center;
+	text-align: center;
+  }
+  
+  .oversodermalm:hover .image {
+	opacity: 0.6;
+  }
+  
+  .oversodermalm:hover .middle {
+	opacity: 1;
+  }
+  
+  .tosoder {
+	
+	padding: 16px 32px;
+  }
+
+  .dörrin {
+
+	opacity: 0;
+
+  }
+
+  .dörrin2 {
+
+	opacity: 1;
+	cursor: pointer;
+
+  }
+
+  .dörrin:hover {
+
+	opacity: 0.05;
+
+
+  }
+
+  .rumett {
+
+	max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+  }
+
+  .grogg {
+	background:none;
+	opacity:1;
+	cursor: pointer;
+	border: none;
+	
+  }
+
+  .altar {
+	background:none;
+	opacity:0;
+	cursor: pointer;
+	border: none;
+  }
+
+  .pojke {
+	background:none;
+	opacity:0;
+	cursor: pointer;
+	border: none;
+  }
+
+  .pilhöger {
+	scale: 15%;
+	left: 440px;
+	top: -160px;
+	opacity: 90%;
+
+  }
+  
+  .pilvänster {
+	scale: 15%;
+	left: -360px;
+	top: -160px;
+	opacity: 90%;
+
+  }
+
+  .Leon {
+	opacity: 0;
+	width: 310px;
+	height: 560px;
+	left: 362px;
+	top: 169px;
+	cursor: pointer;
+	
+  }
+
+  .knapptamburin {
+	opacity: 0;
+	width: 50px;
+	height: 50px;
+	left: 278px;
+	top: 322px;
+	cursor: pointer;
+  }
+
+  .tamburin {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .rumv1 {
+	z-index: -1;
+	top: 0; 
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  } 
+
+  .rumv2 {
+	scale: 300%;
+	position: absolute;
+	z-index: -1;
+	top: 2347px;
+	left: 4630px;
+	width: 2230px;
+	object-fit: cover;
+	cursor: default;
+	
+  } 
+
+  .pojktavlah {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .Leonh1 {
+	opacity: 0;
+	width: 212px;
+	height: 560px;
+	left: 650px;
+	top: 252px;
+	cursor: pointer;
+
+  }
+
+  .knapppojktavlah {
+	opacity: 0;
+	width: 79px;
+	height: 130px;
+	left: 149px;
+	transform: rotate(-2.0deg);
+	top: 226px;
+	cursor: pointer;
+
+  }
+
+  .pilsnev {
+	scale: 15%;
+	left: -320px;
+	top: 240px;
+	opacity: 90%;
+  }
+
+  .videostop {
+	left: 50px;
+	top: 50px;
+	width: 50px;
+	height: 50px;
+  }
+
+  .knappgitarr {
+	opacity: 0;
+	width: 74px;
+	height: 430px;
+	left: 369px;
+	transform: rotate(-2.0deg);
+	top: 364px;
+	cursor: pointer;
+}
+
+.knapptambourin {
+	opacity: 0;
+	width: 64px;
+	height: 76px;
+	left: 155px;
+	transform: rotate(-2.0deg);
+	top: 378px;
+	cursor: pointer;
+}
+
+.gitarrh1 {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .tambourinh1 {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .knapprainstick {
+	opacity: 0;
+	width: 17.8px;
+	height: 118px;
+	left: 706.3px;
+	transform: rotate(-1.7deg);
+	top: 155px;
+	cursor: pointer;
+}
+
+.rainstickh1 {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .knapprainstickh2 {
+	opacity: 0;
+	width: 20.6px;
+	height: 145px;
+	left: 259.7px;
+	transform: rotate(-1.3deg);
+	top: 112px;
+	cursor: pointer;
+}
+
+.knappmandolin {
+	opacity: 0;
+	width: 81.8px;
+	height: 192px;
+	left: 216.3px;
+	transform: rotate(-1.deg);
+	top: 370px;
+	cursor: pointer;
+}
+
+.mandolin {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .knapptambourin2 {
+	opacity: 0;
+	width: 58px;
+	height: 65px;
+	left: 772px;
+	transform: rotate(-2.0deg);
+	top: 338px;
+	cursor: pointer;
+}
+
+.tambourin {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+  }

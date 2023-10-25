@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Template</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+
+	<body>
+
+		<main class="max-size">
+
+			<section id="start" class="dark">
+			
+				<p class="h-center imusic-loading">Loading...</p>
+				<a class="button h-center v-center" href="next" data-waxml-click-trig="Default">START</a>
+				<a class="button v-center" href="#page4">Current</a>
+			
+			</section>
+
+			<section id="prelude1" class="dark">
+			
+				<p class="h-center imusic-loading">Loading...</p>
+				<a class="button h-center v-center" href="next" data-waxml-click-trig="Salar">START</a>
+				<a class="button v-center" href="#page4">Current</a>
+			
+			</section>
+
+
+
+			<section id="page1">
+				
+				<div class="background">
+					<img src="images/Stockholm Earth.png" style="width: 100%;">
+				</div>
+		
+			
+				<div class="oversodermalm">
+					<a href="next" class="tosoder" data-waxml-click-trig="bakgrund">
+					<img src="images/södermalmritat.png" class="image">
+					</a>
+				
+					<div class="middle">
+					  
+					</div>
+
+				  </div>
+				
+			</section>
+
+			<section id="Page2">
+
+				<div class="background">
+					<img src="images/Dörrin.jpg" style="width: 100%;">
+				</div>
+
+				<a class="dörrin" href="next" style="top: 125px;left: 485px;" 
+							data-media-click-play="#door, 1.5, #page4" data-waxml-click-trig="door" > 
+						<button class="dörrin2" style="height: 440px;width: 160px;">
+							</button>
+					</a>
+
+			</section>
+
+			<section id="page3">
+
+			<video id="door" src="video/Dooropn.mp4" style="z-index: -1;
+			top: 0;
+			left: 0;
+			width: 100%; 
+			height: 100%;
+			object-fit: cover;"></video>
+			
+			</section>
+
+			<section id="page4" class="Mainpage">
+			
+				<div class="rumett">
+					<img src="images/Rum1.jpg" style="z-index: -1;
+				top: 0; 
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;">
+				</div>
+
+				<a class="pilhöger" href="#page9">	
+					<img src="images/mosspil.png">
+				
+
+				<a class="pilvänster" href="#page13">	
+					<img src="images/mosspilv.png">
+
+					<a class="frogg" href="next"style="top: 238px;left: 109px;" 
+							data-media-click-play="#frog, 0, #page4" data-waxml-click-trig="frog">
+						 <button class="grogg" style="height: 55px;width: 55px;"> 
+							</button>
+						</a>
+				
+						<a href="#page6"style="top: 306px;left: 0px;" 
+						data-media-click-play="#altar, 0, #page4">
+					 <button class="altar" style="height: 256px;width: 195px;"> 
+						</button>
+							</a>	
+
+				<a href="#page7"style="top: 215px;left: 782px;" 
+						data-media-click-play="#pojke, 0, #page4" data-waxml-click-trig="song1">
+					 <button class="pojke" style="height: 108px;width: 75px;"> 
+						</button> </a>
+				
+						<a href="#page12" class="knapptamburin"
+						data-media-click-play="#vidtamburin, 0, #page4" data-waxml-click-trig="tamburin">
+					 <button class="knapptamburin"> 
+						</button> </a>
+
+						<a href="#page20" class="knappmandolin"
+						data-media-click-play="#mandolinscen, 0, #page4" data-waxml-click-trig="mandolin">
+					 <button class="knappmandolin"> 
+						</button> </a>
+
+						<a href="#page21" class="knapptambourin2"
+						data-media-click-play="#tambourin2scen, 0, #page4" data-waxml-click-trig="tambourin1">
+					 <button class="knapptambourin2"> 
+						</button> </a>
+										
+				
+			</section>
+
+			<section id="page5" class="dark">
+				
+				<video id="frog" src="video/frogscene.mp4" style="z-index: -1;
+				top: 0;
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;"></video>
+		
+	
+			</section>
+
+			<section id="page6" class="dark">
+
+				<video id="altar" src="video/altarscen.mp4" style="z-index: -1;
+				top: 0;
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;"></video>
+
+		
+				
+			</section>
+
+			<section id="page7" class="dark">
+
+				<video id="pojke" src="video/pojktavla.mp4" style=" position: absolute;
+				z-index: -1;
+				top: 0;
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;"></video>
+				
+			</section>
+
+			<section id="page8" class="dark">
+
+				<video id="altar" src="video/altarscen.mp4" style="z-index: -1;
+				top: 0;
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;"></video>
+				
+			</section>
+
+			<section id="page9" class="dark">
+
+				<div class="rumh1">
+					<img src="images/rumh1.jpg" style="z-index: -1;
+				top: 0; 
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;">
+				</div>
+
+				<a class="pilhöger" href="#page10">	
+					<img src="images/mosspil.png">
+					</a>
+
+					<a class="pilvänster" href="#page4">	
+						<img src="images/mosspilv.png">
+						</a>
+
+						<a class="knapppojktavlah" href="#page15" 
+						data-media-click-play="#vidpojktavlah, 0, #page9" data-waxml-click-trig="song2">
+					 <button class="knapppojktavlah"> 
+						</button>
+						</a>
+
+						<a class="knappgitarr" href="#page16" 
+						data-media-click-play="#gitarrscen, 0, #page9" data-waxml-click-trig="gitarr">
+					 <button class="knappgitarr"> 
+						</button>
+						</a>
+
+						<a class="knapptambourin" href="#page17" 
+						data-media-click-play="#tambourinscen, 0, #page9" data-waxml-click-trig="tambourin2">
+					 <button class="knapptambourin"> 
+						</button>
+						</a>
+
+						<a class="knapprainstick" href="#page18" 
+						data-media-click-play="#rainstickscen, 0, #page9" data-waxml-click-trig="flute1">
+					 <button class="knapprainstick"> 
+						</button>
+						</a>
+
+			</section>
+
+			<section id="page10" class="dark">
+		
+
+				
+					<img src="images/Rumh2.jpg" style="z-index: -1;
+				top: 0; 
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;">
+				
+
+				<a class="pilvänster" href="#page9">	
+					<img src="images/mosspilv.png">
+				
+					<a class="pilhöger" href="#page14">	
+						<img src="images/mosspil.png">
+			
+					<a class="Leon" href="#page11" 
+						data-media-click-play="#leonai, 0, #page4" data-waxml-click-trig="Default">
+					 <button class="Leon"> 
+						</button>
+				</a>	
+
+				<a class="knapprainstickh2" href="#page19" 
+						data-media-click-play="#rainstickhscen, 0, #page10" data-waxml-click-trig="flute2">
+					 <button class="knapprainstickh2"> 
+						</button>
+						</a>
+
+			</section>
+
+			<section id="page11" class="dark">
+				
+				<video id="leonai" src="video/leonspelarharpa.mp4" style="z-index: -1;
+				top: 0;
+				left: 0;
+				width: 100%; 
+				height: 100%;
+				object-fit: cover;"></video>
+			
+			<script> var x = document.getElementById("leonai"); 
+
+				function playVid() { 
+ 					 x.play(); 
+						} 
+
+				function pauseVid() { 
+  					x.pause(); 
+							} 
+			</script>
+
+			<a class="pilsnev" href="#page10" onclick="pauseVid()">	
+			
+				<img src="images/pilsnev.png">
+			
+			</a>
+
+				</section>
+			
+				<section id="page12">
+					
+					<video id="vidtamburin" src="video/Tamburinscen.mp4" class="tamburin"></video>
+
+				</section>
+
+		 <section id="page13">
+
+			<img src="images/rumv1.jpg" class="rumv1">
+			
+			<a class="pilhöger" href="#page4">	
+				<img src="images/mosspil.png">
+	
+			<a class="pilvänster" href="#page14">	
+				<img src="images/mosspilv.png">
+
+		
+
+		 </section>
+
+		 <section id="page14">
+
+			<img src="images/rumv2.jpg" class="rumv2">
+			
+			<a class="pilhöger" href="#page13">	
+				<img src="images/mosspil.png">
+			
+
+			<a class="pilvänster" href="#page10">	
+				<img src="images/mosspilv.png">
+
+				<a class="dörrin" href="#page3" style="top: 0px;left: 194px;transform: rotate(-2.4deg);" 
+				data-media-click-play="#door, 1.5, #page4" data-waxml-click-trig="door" > 
+			<button class="dörrin2" style="height: 570px;width: 265px;">
+				</button>
+		</a>
+
+		 </section>
+
+		 <section id="page15">
+					
+			<video id="vidpojktavlah" src="video/pojktavlah.mp4" class="pojktavlah">
+
+		</section>
+
+		<section id="page16">
+					
+			<video id="gitarrscen" src="video/gitarrscenmp4.mp4" class="gitarrh1">
+
+		</section>
+
+		<section id="page17">
+					
+			<video id="tambourinscen" src="video/Tambourinscen.mp4" class="tambourinh1">
+
+		</section>
+
+		<section id="page18">
+					
+			<video id="rainstickscen" src="video/rainstickscen.mp4" class="rainstickh1">
+
+		</section>
+
+		<section id="page19">
+					
+			<video id="rainstickhscen" src="video/rainstickhscen.mp4" class="rainstickh2">
+
+		</section>
+
+		<section id="page20">
+					
+			<video id="mandolinscen" src="video/mandolinscen.mp4" class="mandolin">
+
+		</section>
+
+		<section id="page21">
+					
+			<video id="tambourin2scen" src="video/Tambourin2scen.mp4" class="tambourin">
+
+		</section>
+
+
+
+
+
+
+
+		</main>
+		<script src="plugins/max.size.js"></script>
+		<script src="plugins/WebAudioXML.js" data-source="audio.xml"></script>
+		<script src="plugins/imusic_091.js" data-music-structure="music.xml"></script>
+		<script src="plugins/script.js"></script>
+
+
+	</body>
+</html>

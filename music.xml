@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imusic
+
+  xmlns="https://www.w3schools.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.w3schools.com https://momdev.se/lindetorp/imusic/scheme_1.1.19.xsd"
+  
+  version="1.0" 
+  tempo="90" 
+  timeSign="4/4"
+  
+  changeOnNext="32" 
+  fadeTime="10"
+  showGUI="true">
+
+  <arrangement class="Salar" >
+
+    <track class="Bakgrund" src="audio/Musik/Bakgrund.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch1"/> 
+    <track class="Flute" src="audio/Musik/Flute1.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch2"/> 
+    <track class="Flute2" src="audio/Musik/Flute2.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch3"/>                                 
+    <track class="Frog" src="audio/Musik/Frog.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch4"/> 
+    <track class="Gitarr" src="audio/Musik/Gitarr.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch5"/> 
+    <track class="Mandolin" src="audio/Musik/Mandolin.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch6"/> 
+    <track class="Song1" src="audio/Musik/Song1.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch7"/> 
+    <track class="Song2" src="audio/Musik/Song2.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch8"/> 
+    <track class="Tambourin1" src="audio/Musik/Tambourin1.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch9"/> 
+    <track class="Tambourin2" src="audio/Musik/Tambourin2.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch10"/> 
+    <track class="Tamburin" src="audio/Musik/Tamburin.wav" fadeTime="40" loopActive="1" loopLength="12" voice="bakgrund" output="#ch11"/> 
+
+
+    <motif class="door" src="audio/motifdoor.mp3" fadeTime="1" />
+
+  </arrangement>
+
+
+
+</imusic>

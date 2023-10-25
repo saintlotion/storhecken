@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audio 
+
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com https://momdev.se/lindetorp/waxml/scheme_1.16.xsd"
+
+    version="1.0" 
+    timeUnit="ms" 
+    gain="0dB"
+    controls="true">
+
+
+    <var name="mix_intensity" default="0" mapin="0,1" />
+    <var name="mix_blend" default="0"/>
+    <var name="mix_transition_time" default="500" />
+
+    <Mixer id="intensity-mixer" controls="waxml-dynamic-mixer" mix="$mix_intensity" selectindex="$intensity_index" crossFadeRange="$mix_blend" transitionTime="$mix_transition_time" output="#music">       
+        <GainNode id="mix1" />
+        <GainNode id="mix2" />
+        <GainNode id="mix3" />
+        <GainNode id="mix4" />
+        <GainNode id="mix5" />
+    </Mixer>
+
+    <include id="stereo-mixer-4ch" href="plugins/mixer.xml" transitionTime="$mix_transition_time" />
+
+
+    <Snapshot class="LP">
+        <Command type="set" variable="mix_transition_time" value="1000" />
+        <Command type="set" variable="music_volume" value="-2.56" />
+        <Command type="set" variable="music_filter_cutoff" value="-57.15" />
+        <Command type="set" variable="music_filter_resonance" value="4.51" />
+    </Snapshot>
+
+
+    <Snapshot class="HP">
+        <Command type="set" variable="mix_transition_time" value="1000" />
+        <Command type="set" variable="music_volume" value="-2.56" />
+        <Command type="set" variable="music_filter_cutoff" value="57.15" />
+        <Command type="set" variable="music_filter_resonance" value="4.51" />
+    </Snapshot>
+
+    <Snapshot class="Default">
+        <Command type="set" variable="ch1_volume" value="-30" />
+        <Command type="set" variable="ch2_volume" value="-30" />
+        <Command type="set" variable="ch3_volume" value="-30" />
+        <Command type="set" variable="ch4_volume" value="-30" />
+        <Command type="set" variable="ch5_volume" value="-30" />
+        <Command type="set" variable="ch6_volume" value="-30" />
+        <Command type="set" variable="ch7_volume" value="-30" />
+        <Command type="set" variable="ch8_volume" value="-30" />
+        <Command type="set" variable="ch9_volume" value="-30" />
+        <Command type="set" variable="ch10_volume" value="-30" />
+        <Command type="set" variable="ch11_volume" value="-30" />
+      </Snapshot>
+
+      <Snapshot class="bakgrund">
+        <Command type="set" variable="ch1_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="flute1">
+        <Command type="set" variable="ch2_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="flute2">
+        <Command type="set" variable="ch3_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="frog">
+        <Command type="set" variable="ch4_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="gitarr">
+        <Command type="set" variable="ch5_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="mandolin">
+        <Command type="set" variable="ch6_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="song1">
+        <Command type="set" variable="ch7_volume" value="0" />
+      </Snapshot>
+      
+      <Snapshot class="song2">
+        <Command type="set" variable="ch8_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="tambourin1">
+        <Command type="set" variable="ch9_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="tambourin2">
+        <Command type="set" variable="ch10_volume" value="0" />
+      </Snapshot>
+
+      <Snapshot class="tamburin">
+        <Command type="set" variable="ch11_volume" value="0" />
+      </Snapshot>
+     
+
+
+</Audio>
